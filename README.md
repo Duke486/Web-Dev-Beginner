@@ -3,7 +3,7 @@
 Welcome to **Web-Dev-Beginner**! This Doc is designed to help complete beginners learn both frontend and backend development in a fun and practical way.You will rapidly improve your development skills.
 
 🚀 **Read Online**: [Explore the site here!](https://duke486.com/vid/web)
-
+![image](https://github.com/Duke486/Web-Dev-Beginner/blob/main/SCshot.png)
 ## What's Inside? 📚
 
 - **Frontend**: Learn the basics of HTML, CSS, JavaScript, and Vue.js 🖥️
