@@ -14,7 +14,7 @@ hero:
       text: About
       link: /about
   image:
-    src: /assets/logo.png
+    src: /logo.png
     alt: Logo
 
 features:

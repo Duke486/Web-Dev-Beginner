@@ -4,7 +4,8 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     lastUpdated: true,
     title: "Web-Dev-Beginner",
-    description: "Quick start to front & back-end Dev", // logo: '/logo.png',
+    description: "Quick start to front & back-end Dev",
+    logo: '/assets/logo.png',
     footer: {
         message: '基于 MIT 许可发布', copyright: `版权所有 © 2019-${new Date().getFullYear()} Duke486`
     },
@@ -12,7 +13,7 @@ export default defineConfig({
 
     themeConfig: {
         editLink: {
-            pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'//这里需要修改为自己的仓库地址
+            pattern: 'https://github.com/Duke486/Web-Dev-Beginner/edit/main/docs/:path'//这里需要修改为自己的仓库地址
         },
     docFooter: {
       prev: '上一页',
@@ -39,16 +40,16 @@ export default defineConfig({
         nav: [
             {text: 'Home', link: '/'},
             {text: 'Schedule', link: '/schedule'},
-            {text: 'Github', link: '/intro'},
+            {text: 'Github', link: 'https://github.com/Duke486/Web-Dev-Beginner'},
         ],
 
         sidebar: [
             {
                 text: 'Guide',
                 items: [
-                    {text: '导入', link: '/intro'},
-                    {text: '课程安排', link: '/schedule'},
-                    {text: '准备工作', link: '/准备工作'},
+                    {text: '简介', link: '/intro'},
+                    {text: '时间表', link: '/schedule'},
+                    {text: '准备工作', link: '/prepare'},
                     // {text: 'About',link: '/about'}
 
                 ]
@@ -65,7 +66,7 @@ export default defineConfig({
 
         ],
 
-        socialLinks: [{icon: 'github', link: 'https://github.com/vuejs/vitepress'}//这里需要修改为自己的仓库地址
+        socialLinks: [{icon: 'github', link: 'https://github.com/Duke486/Web-Dev-Beginner'}//这里需要修改为自己的仓库地址
         ]
     }
 })
