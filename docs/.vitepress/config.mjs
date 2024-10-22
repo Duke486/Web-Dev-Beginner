@@ -15,21 +15,20 @@ export default defineConfig({
         editLink: {
             pattern: 'https://github.com/Duke486/Web-Dev-Beginner/edit/main/docs/:path'//这里需要修改为自己的仓库地址
         },
-    docFooter: {
-      prev: '上一页',
-      next: '下一页'
-    },
-    outline: {
-      label: '页面导航'
-    },
-    lastUpdated: {
-      text: '最后更新于',
-      formatOptions: {
-        dateStyle: 'short',
-        timeStyle: 'medium'
-      }
-    },
-
+        docFooter: {
+            prev: '上一页',
+            next: '下一页'
+        },
+        outline: {
+            label: '页面导航'
+        },
+        lastUpdated: {
+            text: '最后更新于',
+            formatOptions: {
+                dateStyle: 'short',
+                timeStyle: 'medium'
+            }
+        },
 
 
         search: {
@@ -56,11 +55,18 @@ export default defineConfig({
             },
             {
                 text: 'Week-1',
-                items: [{text: 'Doc', link: '/week-1/doc'}, {text: 'Lab', link: '/week-1/lab'}, {
-                    text: 'Homework',
-                    link: '/week-1/homework'
-                },
-
+                items: [
+                    {text: 'Doc', link: '/week-1/doc'},
+                    {text: 'Lab', link: '/week-1/lab'},
+                    {text: 'Homework', link: '/week-1/homework'},
+                ]
+            },
+            {
+                text: 'Week-2',
+                items: [
+                    {text: 'Doc', link: '/week-2/doc'},
+                    {text: 'Lab', link: '/week-2/lab'},
+                    {text: 'Homework', link: '/week-2/homework'},
                 ]
             }
 
