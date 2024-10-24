@@ -1,6 +1,8 @@
 # Web Dev Beginner Guide 🌐
 
-Welcome to **Web-Dev-Beginner**! This Doc is designed to help complete beginners learn both frontend and backend development in a fun and practical way.You will rapidly improve your development skills.
+欢迎来到 **Web-Dev-Beginner**！这份教程通过有趣且实用的方式，帮助零基础的你学习前后端开发。课程中穿插实际开发的案例故事，配套 AI 辅导平台将助你快速提升开发技能。
+
+Welcome to **Web-Dev-Beginner**! This Doc is designed to help complete beginners learn both frontend and backend development in a fun and practical way. With our AI tutoring platform, you will rapidly improve your development skills.
 
 🚀 **Read Online**: [Explore the site here!](https://doc.duke486.com/)
 ![image](https://github.com/Duke486/Web-Dev-Beginner/blob/main/SCshot.png)
