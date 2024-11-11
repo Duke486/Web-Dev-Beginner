@@ -49,6 +49,7 @@ export default defineConfig({
                 items: [
                     {text: '简介', link: '/intro'},
                     {text: '时间表', link: '/schedule'},
+                    {text: '基础知识', link: '/basic'},
                     {text: '准备工作', link: '/prepare'},
                     // {text: 'About',link: '/about'}
 
