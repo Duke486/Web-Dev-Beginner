@@ -3,7 +3,7 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     lastUpdated: true,
-    ignoreDeadLinks: true,
+    // ignoreDeadLinks: true,
     title: "Web-Dev-Beginner",
     description: "Quick start to front & back-end Dev",
     logo: '/assets/logo.png',
@@ -92,7 +92,19 @@ export default defineConfig({
                     {text: '后端Lab', link: '/week-4/后端lab'},
                     {text: '后端Homework', link: '/week-4/后端homework'},
                 ]
-            }
+            },
+            {
+                text: 'Week-5',
+                items: [
+                    {text: '前端Doc', link: '/week-5/前端doc'},
+                    {text: '前端Lab', link: '/week-5/前端lab'},
+                    {text: '前端Homework', link: '/week-5/前端homework'},
+                    {text: '后端Doc', link: '/week-5/后端doc'},
+                    {text: '后端Lab', link: '/week-5/后端lab'},
+                    {text: '后端Homework', link: '/week-5/后端homework'},
+                ]
+            },
+
 
         ],
 
