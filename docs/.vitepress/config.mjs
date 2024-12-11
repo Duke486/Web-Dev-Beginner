@@ -104,7 +104,24 @@ export default defineConfig({
                     {text: '后端Homework', link: '/week-5/后端homework'},
                 ]
             },
-
+            {
+                text: 'Week-6',
+                items: [
+                    {text: '前端Doc', link: '/week-6/前端doc'},
+                    {text: '前端Lab', link: '/week-6/前端lab'},
+                    {text: '前端Homework', link: '/week-6/前端homework'},
+                    {text: '后端Doc', link: '/week-6/后端doc'},
+                    {text: '后端Lab', link: '/week-6/后端lab'},
+                    {text: '后端Homework', link: '/week-6/后端homework'},
+                ]
+            },
+            {
+                text: 'Week-7',
+                items: [
+                    {text: 'Doc', link: '/week-7/doc'},
+                    {text: 'Lab', link: '/week-7/lab'},
+                ]
+            },
 
         ],
 
