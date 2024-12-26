@@ -122,6 +122,14 @@ export default defineConfig({
                     {text: 'Lab', link: '/week-7/lab'},
                 ]
             },
+            {
+                text: 'Week-8',
+                items: [
+                    {text: '前端', link: '/week-8/前端.md'},
+                    {text: '后端', link: '/week-8/后端.md'},
+                ]
+            },
+
 
         ],
 
